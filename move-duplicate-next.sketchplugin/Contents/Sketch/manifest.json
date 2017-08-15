@@ -1,0 +1,129 @@
+{
+	"name": "Move / Duplicate Next",
+	"description": "Move / duplicate the selected layers to next place.",
+	"author": "Seiji Miyazawa",
+	"authorEmail": "onthehead@gmail.com",
+	"version": "1.0",
+	"identifier": "com.onthehead.move-duplicate-next",
+	"compatibleVersion": 45,
+	"commands": [
+		{
+			"script": "action.js",
+			"identifier": "all-move-up",
+			"handler": "allMovUp",
+			"name": "Move All Selection to Up",
+			"shortcut": "control ↑"
+		}, {
+			"script": "action.js",
+			"identifier": "all-move-right",
+			"handler": "allMovRight",
+			"name": "Move All Selection to Right",
+			"shortcut": "control →"
+		}, {
+			"script": "action.js",
+			"identifier": "all-move-down",
+			"handler": "allMovDown",
+			"name": "Move All Selection to Down",
+			"shortcut": "control ↓"
+		}, {
+			"script": "action.js",
+			"identifier": "all-move-left",
+			"handler": "allMovLeft",
+			"name": "Move All Selection to Left",
+			"shortcut": "control ←"
+		}, {
+			"script": "action.js",
+			"identifier": "all-dup-up",
+			"handler": "allDupUp",
+			"name": "Duplicate All Selection to Up",
+			"shortcut": "control option ↑"
+		}, {
+			"script": "action.js",
+			"identifier": "all-dup-right",
+			"handler": "allDupRight",
+			"name": "Duplicate All Selection to Right",
+			"shortcut": "control option →"
+		}, {
+			"script": "action.js",
+			"identifier": "all-dup-down",
+			"handler": "allDupDown",
+			"name": "Duplicate All Selection to Down",
+			"shortcut": "control option ↓"
+		}, {
+			"script": "action.js",
+			"identifier": "all-dup-left",
+			"handler": "allDupLeft",
+			"name": "Duplicate All Selection to Left",
+			"shortcut": "control option ←"
+		}, {
+			"script": "action.js",
+			"identifier": "each-move-up",
+			"handler": "eachMovUp",
+			"name": "Move Each Selection to Up",
+			"shortcut": "control shift ↑"
+		}, {
+			"script": "action.js",
+			"identifier": "each-move-right",
+			"handler": "eachMovRight",
+			"name": "Move Each Selection to Right",
+			"shortcut": "control shift →"
+		}, {
+			"script": "action.js",
+			"identifier": "each-move-down",
+			"handler": "eachMovDown",
+			"name": "Move Each Selection to Down",
+			"shortcut": "control shift ↓"
+		}, {
+			"script": "action.js",
+			"identifier": "each-move-left",
+			"handler": "eachMovLeft",
+			"name": "Move Each Selection to Left",
+			"shortcut": "control shift ←"
+		}, {
+			"script": "action.js",
+			"identifier": "each-dup-up",
+			"handler": "eachDupUp",
+			"name": "Duplicate Each Selection to Up",
+			"shortcut": "control shift option ↑"
+		}, {
+			"script": "action.js",
+			"identifier": "each-dup-right",
+			"handler": "eachDupRight",
+			"name": "Duplicate Each Selection to Right",
+			"shortcut": "control shift option →"
+		}, {
+			"script": "action.js",
+			"identifier": "each-dup-down",
+			"handler": "eachDupDown",
+			"name": "Duplicate Each Selection to Down",
+			"shortcut": "control shift option ↓"
+		}, {
+			"script": "action.js",
+			"identifier": "each-dup-left",
+			"handler": "eachDupLeft",
+			"name": "Duplicate Each Selection to Left",
+			"shortcut": "control shift option ←"
+		}
+	],
+	"menu": {
+		"title": "Move / Duplicate Next",
+		"items": [
+			"all-move-up",
+			"all-move-right",
+			"all-move-down",
+			"all-move-left",
+			"all-dup-up",
+			"all-dup-right",
+			"all-dup-down",
+			"all-dup-left",
+			"each-move-up",
+			"each-move-right",
+			"each-move-down",
+			"each-move-left",
+			"each-dup-up",
+			"each-dup-right",
+			"each-dup-down",
+			"each-dup-left"
+		]
+	}
+}
