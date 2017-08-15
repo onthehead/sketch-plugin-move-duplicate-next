@@ -1,7 +1,7 @@
 # Move / Duplicate Next Sketch Plugin
 This plugin move / duplicate the selected layers to next place.
 
-<img src="https://github.com/onthehead/blob/sketch-plugin-move-duplicate-next/img/preview.gif" alt="Preview Move / Duplicate Next"/>
+<img src="https://github.com/onthehead/sketch-plugin-move-duplicate-next/blob/master/img/preview.gif" alt="Preview Move / Duplicate Next"/>
 
 ## Function and Shortcut
 
